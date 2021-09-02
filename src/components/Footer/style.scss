@@ -1,0 +1,56 @@
+@import "../../styles/variable.scss";
+
+.main-footer {
+  width: 100%;
+  padding: 20px 50px 20px 50px;
+  color: #45B9B2;
+  gap: 30px;
+  display: flex;
+  justify-content: space-between;
+
+  &-made {
+    width: 100%;
+    text-align: center;
+  }
+  &-social {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    max-width: 150px;
+  }
+
+  &-service {
+    justify-content: center;
+    display: flex;
+    & > a {
+      color: #45B9B2;
+      text-decoration: none;
+      padding: 4px 16px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-footer {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-footer {
+    flex-direction: column !important;
+    &-social {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .main-footer {
+    flex-direction: column !important;
+    &-social {
+      width: 100%;
+    }
+  }
+}

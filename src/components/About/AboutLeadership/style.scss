@@ -1,0 +1,72 @@
+@import "../../../styles/variable";
+
+.about-leadership {
+  width: 100%;
+  padding: 30px 15%;
+  align-items: center;
+
+  & > div {
+    &:not(:last-child) {
+      margin-bottom: 64px;
+    }
+  }
+
+  & > p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #354170;
+  }
+
+  &-items {
+
+    &-photo {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      color: #444444;
+      padding: 40px;
+
+      &-name {
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 27px;
+
+        color: #354170;
+      }
+
+      &-job {
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 27px;
+      }
+    }
+
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .about{
+    padding: 20px 5%;
+    &-items {
+      padding: 15px;
+      width: 100%;
+      & > div {
+        width: 100%;
+      }
+    }
+  }
+}

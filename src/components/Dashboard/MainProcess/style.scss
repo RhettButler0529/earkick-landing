@@ -1,0 +1,30 @@
+@import "../../../styles/variable.scss";
+
+.main-process {
+  width: 100%;
+  margin-top: 64px;
+  padding: 0px 8px;
+
+  & > p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+    color: #354170;
+  }
+
+  &-step {
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1024px) {
+}

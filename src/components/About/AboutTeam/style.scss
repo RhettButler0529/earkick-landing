@@ -1,0 +1,54 @@
+@import "../../../styles/variable";
+
+.about-team {
+  width: 100%;
+  padding: 30px 15%;
+  align-items: center;
+
+  & > div {
+    &:not(:last-child) {
+      margin-bottom: 64px;
+    }
+  }
+
+  & > p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #354170;
+  }
+
+  &-items {
+    & > div {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      text-align: center;
+
+      color: #45B9B2;
+    }
+
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .about{
+    padding: 20px 5%;
+    &-items {
+      padding: 15px;
+      width: 100%;
+      & > div {
+        width: 100%;
+      }
+    }
+  }
+}

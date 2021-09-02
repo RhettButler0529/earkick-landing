@@ -1,0 +1,70 @@
+@import "../../../styles/variable";
+
+.about-offices {
+  width: 100%;
+  padding: 30px 15%;
+  align-items: center;
+
+  & > div {
+    &:not(:last-child) {
+      margin-bottom: 64px;
+    }
+  }
+
+  & > p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #354170;
+  }
+
+  &-items {
+
+    &-photo {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      color: #444444;
+      padding: 20px;
+
+      &-comment {
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 30px;
+      }
+    }
+
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .about-offices{
+    padding: 20px 5%;
+    &-items {
+      padding: 15px;
+      width: 100%;
+
+      & > div {
+        width: 100%;
+      }
+
+      &-photo {
+        & > img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

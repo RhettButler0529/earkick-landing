@@ -1,0 +1,56 @@
+@import "../../../styles/variable.scss";
+
+.main-privacy {
+  width: 100%;
+  padding: 0px 15%;
+  align-items: center;
+  margin-top: 50px;
+
+  & > div {
+    &:not(:last-child) {
+      margin-bottom: 64px;
+    }
+  }
+
+  & > p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #354170;
+  }
+
+  &-items {
+    margin-top: 30px;
+
+    & > div {
+      width: 65%;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      margin-bottom: 15px;
+    }
+
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .main-privacy{
+    padding: 20px 5%;
+    &-items {
+      padding: 15px;
+      width: 100%;
+      & > div {
+        width: 100%;
+      }
+    }
+  }
+}
