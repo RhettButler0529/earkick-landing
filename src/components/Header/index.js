@@ -41,10 +41,10 @@ const Header = () => {
             <Link to={ROUTERS.ABOUT}>About</Link>
           </Ripples>
           <Ripples>
-            <Link to={ROUTERS.JOBS}>Jobs</Link>
+            <a href={"https://recruitee.com/"}>Jobs</a>
           </Ripples>
           <Ripples>
-            <Link to={ROUTERS.BLOG}>Blog</Link>
+            <a href={'https://blog.earkick.com/'}>Blog</a>
           </Ripples>
         </div>
         {/*<div className="header-order-now" onClick={handleOrder}>*/}
@@ -66,10 +66,10 @@ const Header = () => {
                 <Link to={ROUTERS.ABOUT}>About</Link>
               </Ripples>
               <Ripples>
-                <Link to={ROUTERS.JOBS}>Jobs</Link>
+                <a href={"https://recruitee.com/"}>Jobs</a>
               </Ripples>
               <Ripples>
-                <Link to={ROUTERS.BLOG}>Blog</Link>
+                <a href={"https://blog.earkick.com/"}>Blog</a>
               </Ripples>
             </div>
           )}
