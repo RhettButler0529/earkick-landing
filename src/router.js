@@ -33,7 +33,7 @@ const AppRouter = () => {
           {/*<Route path={ROUTERS.HELP} component={Help} />*/}
           {/*<Route path={ROUTERS.STATUS} component={Status} />*/}
           {/*<Route path={ROUTERS.TERMSOFSERVICE} component={TermsOfService} />*/}
-          {/*<Route path={ROUTERS.PRIVACYPOLICY} component={PrivacyPolicy} />*/}
+          <Route path={ROUTERS.PRIVACYPOLICY} component={PrivacyPolicy} />
           {/*<Route path={ROUTERS.REFUNDPOLICY} component={RefundPolicy} />*/}
           <Route render={() => <NotFound />} />
         </Switch>
