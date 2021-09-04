@@ -38,6 +38,8 @@ body {
 #root {
   width: 100%;
   height: 100%;
+  max-width: 900px;
+  margin: auto;
 
   & > div {
     width: 100%;

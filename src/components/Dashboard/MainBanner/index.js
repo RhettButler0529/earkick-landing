@@ -1,5 +1,5 @@
 import "./style.scss"
-import IOSBUTTON from "resources/images/iosbutton.png"
+import IOSBUTTON from "resources/images/iosbutton.svg"
 import MAINBANNER from "resources/images/main-banner.png"
 
 const MainBanner = ({ gotoIOS }) => (
@@ -17,7 +17,7 @@ const MainBanner = ({ gotoIOS }) => (
         </div>
         <div className="main-banner-ios flex">
           <div onClick={gotoIOS}>
-            <img src={IOSBUTTON} alt="banner text bg" />
+            <img src={IOSBUTTON} alt="iosbutton" height={'60px'}/>
           </div>
         </div>
         <div className="main-banner-subtitle flex">

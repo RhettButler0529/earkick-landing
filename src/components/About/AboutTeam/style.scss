@@ -24,14 +24,18 @@
   }
 
   &-items {
+
     & > div {
       font-style: normal;
       font-weight: 500;
       font-size: 18px;
       line-height: 27px;
       text-align: center;
-
-      color: #45B9B2;
+      color: #444444;
+      & > a {
+        color: #45B9B2;
+        text-decoration: none;
+      }
     }
 
     flex-wrap: wrap;

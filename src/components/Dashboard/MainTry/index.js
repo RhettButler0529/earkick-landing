@@ -1,11 +1,14 @@
 import "./style.scss"
-import IOSBUTTON from "resources/images/iosbutton.png"
+import IOSBUTTON from "resources/images/iosbutton.svg"
 import LOGO from "resources/images/logo.png"
 
 const MainTry = () => (
   <div className="main-try flex">
     <div className="main-try-texts flex flex-column">
-      <img src={LOGO} alt="logo" width={50} />
+      <div className="main-try-texts-image">
+        <img src={LOGO} alt="logo" width={50} />
+      </div>
+
       <div className="main-try-title flex">
         <div className="flex">
           Try Earkick today!
@@ -16,7 +19,7 @@ const MainTry = () => (
       </div>
       <div className="main-try-ios flex">
         <div>
-          <img src={IOSBUTTON} alt="banner text bg" />
+          <img src={IOSBUTTON} alt="iosbutton" height={'60px'} />
         </div>
       </div>
     </div>

@@ -1,11 +1,12 @@
 import "./style.scss"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const AboutTeam = () => (
     <div className="about-team flex flex-column">
       <p>Earkick team</p>
       <div className="about-team-items flex">
         <div>
-          Evan Nisselson - Herbert Bay - Karin Stephan - Igor Makara - <br/>Roy Ashok - Srivignesh Rajendran - Veronique Larcher
+          <a href={"https://www.linkedin.com/in/herbertbay/"}>Evan Nisselson</a> - <a href={"https://www.linkedin.com/in/herbertbay/"}>Herbert Bay</a> - <a href={"https://www.linkedin.com/in/herbertbay/"}>Karin Stephan</a> - <a href={"https://www.linkedin.com/in/herbertbay/"}>Igor Makara</a> - <br/><a href={"https://www.linkedin.com/in/herbertbay/"}>Roy Ashok</a> - <a href={"https://www.linkedin.com/in/herbertbay/"}>Srivignesh Rajendran</a> - <a href={"https://www.linkedin.com/in/herbertbay/"}>Veronique Larcher</a>
         </div>
       </div>
     </div>
