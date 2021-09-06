@@ -51,9 +51,9 @@
 
 @media (max-width: 768px) {
   .about-offices{
-    padding: 20px 5%;
+    padding: 0;
     &-items {
-      padding: 15px;
+      //padding: 15px;
       width: 100%;
 
       & > div {

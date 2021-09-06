@@ -7,7 +7,7 @@ const AboutLeadership = () => (
       <p>Leadership</p>
       <div className="about-leadership-items flex">
         <div className="about-leadership-items-photo flex-column">
-          <img src={HERBERT} alt="Herbert" style={{borderRadius: '50%'}}/>
+          <img src={HERBERT} alt="Herbert" style={{borderRadius: '50%'}} width={230}/>
           <div className="about-leadership-items-photo-name">
             Herbert
           </div>
@@ -16,7 +16,7 @@ const AboutLeadership = () => (
           </div>
         </div>
         <div className="about-leadership-items-photo flex-column">
-          <img src={KARIN} alt="Karin" style={{borderRadius: '50%'}} />
+          <img src={KARIN} alt="Karin" style={{borderRadius: '50%'}} width={230}/>
           <div className="about-leadership-items-photo-name">
             Karin Stephan
           </div>

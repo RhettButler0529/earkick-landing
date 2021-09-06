@@ -4,7 +4,7 @@
   width: 30%;
   box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 
   &:not(:last-child) {
     margin-right: 16px;
@@ -20,20 +20,26 @@
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 2px;
-    margin: 8px 0;
+    margin: 15px 0;
     text-align: center;
   }
 
   &-comments {
-    height: 140px;
+    height: 145px;
     font-weight: 500;
     font-size: 18px;
     padding: 0 15px 15px 15px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .main-process-steps {
     width: min-content;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-process-steps {
+    width: 50%;
   }
 }
