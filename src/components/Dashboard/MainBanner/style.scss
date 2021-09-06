@@ -113,9 +113,10 @@
 
 @media (max-width: 768px) {
   .main-banner {
-    padding-left: 0px;
+    padding: 0;
     flex-direction: column !important;
     align-items: center;
+    justify-content: center;
 
     &-title {
       justify-content: center;
