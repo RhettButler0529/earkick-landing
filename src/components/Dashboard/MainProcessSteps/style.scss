@@ -6,10 +6,6 @@
   border-radius: 10px;
   margin-bottom: 30px;
 
-  &:not(:last-child) {
-    margin-right: 16px;
-  }
-
   &-image {
     align-items: center;
     justify-content: center;
@@ -38,8 +34,14 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .main-process-steps {
     width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-process-steps {
+    width: 60%;
   }
 }
