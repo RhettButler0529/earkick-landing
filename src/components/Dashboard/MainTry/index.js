@@ -1,13 +1,13 @@
 import "./style.scss"
 import IOSBUTTON from "resources/images/iosbutton.svg"
-import LOGO from "resources/images/logo.png"
+import LOGO from "resources/images/logo.svg"
 
 const MainTry = () => (
   <div className="main-try flex">
     <div className="main-try-texts flex flex-column">
-      <div className="main-try-texts-image">
-        <img src={LOGO} alt="logo" width={50} />
-      </div>
+      {/*<div className="main-try-texts-image">*/}
+        <img src={LOGO} alt="logo" width={100} />
+      {/*</div>*/}
 
       <div className="main-try-title flex">
         <div className="flex">
