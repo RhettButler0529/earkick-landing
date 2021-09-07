@@ -7,7 +7,7 @@
   height: 88px;
   align-items: center;
   justify-content: start;
-  padding: 50px 30px;
+  padding: 60px 30px;
   transition: 0.3s;
 
   &-logo {
@@ -21,7 +21,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 20px;
 
     //gap: 24px;
   }
@@ -68,20 +68,26 @@
 
 @media (max-width: 1024px) {
   .header {
-    height: 74px;
-    padding: 0 30px;
+    height: 88px;
+    padding: 60px 30px;
     width: 100%;
     & > img {
       height: 60px;
       bottom: 0px;
+    }
+
+    &-nav {
+      padding-top: 20px;
+
+      //gap: 24px;
     }
   }
 }
 
 @media (max-width: 900px) {
   .header {
-    height: 62px;
-    padding: 50px 30px;
+    height: 88px;
+    padding: 60px 30px;
 
     & > img {
       height: 60px;
@@ -92,8 +98,8 @@
 
 @media (max-width: 768px) {
   .header {
-    height: 50px;
-    padding: 50px 3%;
+    height: 88px;
+    padding: 60px 3%;
 
     & > img {
       height: 60px;
@@ -104,9 +110,8 @@
       width: 100%;
       align-items: center;
       justify-content: right;
-      padding-top: 50px;
+      padding-top: 23px;
 
-      //gap: 24px;
     }
 
     &-menus {
