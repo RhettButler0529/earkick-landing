@@ -1,5 +1,4 @@
 import "./style.scss"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const AboutTeam = () => (
     <div className="about-team flex flex-column">

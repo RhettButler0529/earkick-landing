@@ -1,6 +1,6 @@
 import STEP from "resources/images/process/main-process-step.png"
 
-export default [
+const ProcessSteps = [
   {
     image: STEP,
     title: "Effortless journaling",
@@ -21,3 +21,5 @@ export default [
     color: '#96299F',
   },
 ]
+
+export default ProcessSteps;

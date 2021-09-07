@@ -1,17 +1,12 @@
-import { Link, useHistory } from "react-router-dom"
+import { Link } from "react-router-dom"
 import "./style.scss"
 
 import ROUTERS from "constants/Routers"
-
-import FACEBOOKICON from "resources/images/facebook.png"
-import TWITTERICON from "resources/images/twitter.png"
-import INSTAGRAMICON from "resources/images/instagram.png"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => {
-  const history = useHistory()
   return (
     <>
       <div className="main-footer">

@@ -1,15 +1,12 @@
-import { useHistory } from "react-router-dom"
-
 import MainBanner from "components/Dashboard/MainBanner"
 import MainProcess from "components/Dashboard/MainProcess"
 import MainFeatures from "components/Dashboard/MainFeatures"
 import MainPrivacy from "components/Dashboard/MainPrivacy"
 
 const Dashboard = () => {
-  const history = useHistory()
 
   const gotoIOS = () => {
-    // history.push(ROUTERS.CUSTOM_STICKER)
+    window.location.assign('https://testflight.apple.com/join/pwEHcAEF');
   }
 
   return (
